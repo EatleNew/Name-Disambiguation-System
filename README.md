@@ -6,7 +6,7 @@ This is the code implementation of the **team <u>Sumo</u>** in the competition *
 
 ## Overview
 
-Disambiguation of authors with the same name is crucial for ensuring academic fairness. This research develops an **N**ame **D**isambiguation **S**ystem based on the GCCAD (Graph Contrastive Coding for Anomaly Detection) model. We developed the original model with Sage convolution, batch normalization, residual connection, multi-head attention mechanism and AdamW optimizer, etc. The NDS model achieved impressive results, with an AUC of 0.766 on the test dataset and 0.716 on the validation dataset. **This result is the state-of-the-art(_sota_) among all the teams in our class who participated in this competition.**
+Disambiguation of authors with the same name is crucial for ensuring academic fairness. This research develops a **N**ame **D**isambiguation **S**ystem based on the GCCAD (Graph Contrastive Coding for Anomaly Detection) model. We developed the original model with Sage convolution, batch normalization, residual connection, multi-head attention mechanism and AdamW optimizer, etc. The NDS model achieved impressive results, with an AUC of 0.766 on the test dataset and 0.716 on the validation dataset. **This result is the state-of-the-art(_sota_) among all the teams in our class who participated in this competition.**
 
 ## Prerequisites
 
