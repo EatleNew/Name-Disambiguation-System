@@ -6,9 +6,11 @@ This is the code implementation of the **team <u>Sumo</u>** in the competition *
 
 ## Overview
 
-Disambiguation of authors with the same name is crucial for ensuring academic fairness. This article develops an improved **N**ame **D**isambiguation **S**ystem based on the GCCAD (Graph Contrastive Coding for Anomaly Detection) model and improvs the system. We replaced the original GCN convolution with Sage convolution, adopted batch normalization, residual connection, introduced Edge Predictor multi-head attention mechanism and use AdamW optimizer, etc. The NDS model achieved impressive results, with an AUC of 0.766 on the test dataset and 0.716 on the validation dataset. **This result is the state-of-the-art(_sota_) among all the teams in our class who participated in this competition.**
+Disambiguation of authors with the same name is crucial for ensuring academic fairness. This research develops an **N**ame **D**isambiguation **S**ystem based on the GCCAD (Graph Contrastive Coding for Anomaly Detection) model. We developed the original model with Sage convolution, batch normalization, residual connection, multi-head attention mechanism and AdamW optimizer, etc. The NDS model achieved impressive results, with an AUC of 0.766 on the test dataset and 0.716 on the validation dataset. **This result is the state-of-the-art(_sota_) among all the teams in our class who participated in this competition.**
 
 ## Prerequisites
+
+### Pytorch environment
 
 Create a virtual anaconda environment:
 
@@ -28,7 +30,7 @@ And then install the necessities:
 pip install -r GCCAD/requirements.txt
 ```
 
-## IND Dataset
+### IND Dataset
 
 The dataset can be downloaded from [BaiduPan](https://pan.baidu.com/s/1_CX50fRxou4riEHzn5UYKg?pwd=gvza) with password gvza, [Aliyun](https://open-data-set.oss-cn-beijing.aliyuncs.com/oag-benchmark/kddcup-2024/IND-WhoIsWho/IND-WhoIsWho.zip) or [DropBox](https://www.dropbox.com/scl/fi/o8du146aafl3vrb87tm45/IND-WhoIsWho.zip?rlkey=cg6tbubqo532hb1ljaz70tlxe&dl=1).
 Unzip the dataset and put files into `dataset/` directory.
